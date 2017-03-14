@@ -15,7 +15,7 @@ var util = require('util'),
 	// Note: The way to get api key:
     // Free: https://www.microsoft.com/cognitive-services/en-us/subscriptions?productId=/products/Bing.Speech.Preview
     // Paid: https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/Bing.Speech/pricingtier/S0
-    var apiKey = "02ba4d9cf6d443118d5b6cc5a17fcdd5";
+    var apiKey = "<Put your key to here>";
 	var post_data = "";
 
 	var AccessTokenUri = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken";
